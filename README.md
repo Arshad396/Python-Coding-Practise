@@ -1,5 +1,3 @@
----
-
 # 🐍 Python Data Analysis Practice
 
 This repository contains my hands-on practice work in Python, focusing on foundational and intermediate concepts essential for data analysis. The practice is structured through **Jupyter Notebooks** and covers the following areas:
