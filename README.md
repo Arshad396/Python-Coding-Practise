@@ -1,5 +1,3 @@
-Here's a clean and professional **README description** for your Python data analysis practice project:
-
 ---
 
 # 🐍 Python Data Analysis Practice
