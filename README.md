@@ -29,7 +29,7 @@ This repository contains my hands-on practice work in Python, focusing on founda
 
 ## 📈 Purpose
 
-This project is part of my learning journey to become proficient in data analysis using Python. It demonstrates my ability to write clean code, manipulate data effectively, and extract insights from raw datasets
+This project is part of my learning journey to become proficient in data analysis using Python. It demonstrates my ability to write clean code, manipulate data effectively, and extract insights from raw datasets.
 
 ---
 
