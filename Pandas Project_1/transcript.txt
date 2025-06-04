@@ -1,0 +1,26 @@
+Web Server Log Analysis - Python Take-Home Assessment
+
+Transcript of Analysis Steps:
+
+1. Data Loading and Cleaning:
+   - Loaded the Calgary HTTP log data from a .gz file using gzip.
+   - Parsed each log line using a regular expression to extract fields: host, rfc931, authuser, datetime, request, status, bytes.
+   - Converted the datetime field to Python datetime objects.
+   - Split the request field into method, filename, and protocol.
+   - Converted status and bytes fields to integers, handling missing or invalid values.
+   - Extracted file extensions from filenames.
+   - Created a cleaned pandas DataFrame for further analysis.
+
+2. Analysis Questions:
+   - Q1: Counted total log records using DataFrame length.
+   - Q2: Counted unique hosts using nunique() on the 'host' column.
+   - Q3: Computed date-wise unique filename counts by grouping on formatted date strings.
+   - Q4: Counted the number of 404 response codes.
+   - Q5: Identified top 15 filenames resulting in 404 errors.
+   - Q6: Identified top 15 file extensions with 404 errors.
+   - Q7: Calculated total bandwidth transferred per day for July 1995.
+   - Q8: Computed hourly request distribution.
+   - Q9: Found top 10 most requested filenames.
+   - Q10: Produced HTTP response code distribution.
+
+All results were printed for each question as required.
